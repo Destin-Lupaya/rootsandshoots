@@ -157,5 +157,163 @@ namespace rootsandshoots
             FormAproposdeRS A = new FormAproposdeRS();
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
+
+        private void ErToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class_1erp_Hommes A = new Etat_Class_1erp_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class_2emP_Hommes A = new Etat_Class_2emP_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void ErToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class_1erP_Femmes A = new Etat_Class_1erP_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class_2emP_Femmes A = new Etat_Class_2emP_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void ErToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class3emP_Hommes A = new Etat_Class3emP_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Class3emP_Femmes A = new Etat_Class3emP_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void DegreElementaireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elementaire_Primaire A = new Etat_Rapport_Elementaire_Primaire();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void HommesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elem_Prim_Hommes A = new Etat_Rapport_Elem_Prim_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemmesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elem_Prim_Femmes A = new Etat_Rapport_Elem_Prim_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void DegreElementaireToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elementaire_Secondaire A = new Etat_Rapport_Elementaire_Secondaire();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void EncadreurCoordinateurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Encadreur A = new Etat_Encadreur();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+
+        }
+
+        private void HommesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elem_Seco_Hommes A = new Etat_Rapport_Elem_Seco_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemmesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Elem_Seco_Femmes A = new Etat_Rapport_Elem_Seco_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemininToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Femme A = new Etat_Rapport_Femme();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void G1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G1 A = new Etat_Rapport_G1();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void HommesToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G1_Hommes A = new Etat_Rapport_G1_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemmesToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G1_Femmes A = new Etat_Rapport_G1_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void G2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G2 A = new Etat_Rapport_G2();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void HommesToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G2_Hommes A = new Etat_Rapport_G2_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+
+        }
+
+        private void FemmesToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G2_Femmes A = new Etat_Rapport_G2_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void G3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_G3 A = new Etat_Rapport_G3();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
     }
+    
 }

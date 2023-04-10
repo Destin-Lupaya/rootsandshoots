@@ -65,6 +65,132 @@
     <Compile Include="Affiliation.cs" />
     <Compile Include="Club.cs" />
     <Compile Include="Donnees.cs" />
+    <Compile Include="Etat_Class3emP_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class3emP_Femmes.Designer.cs">
+      <DependentUpon>Etat_Class3emP_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Class3emP_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class3emP_Hommes.Designer.cs">
+      <DependentUpon>Etat_Class3emP_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Class_1erP_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class_1erP_Femmes.Designer.cs">
+      <DependentUpon>Etat_Class_1erP_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Class_1erp_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class_1erp_Hommes.Designer.cs">
+      <DependentUpon>Etat_Class_1erp_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Class_2emP_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class_2emP_Femmes.Designer.cs">
+      <DependentUpon>Etat_Class_2emP_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Class_2emP_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Class_2emP_Hommes.Designer.cs">
+      <DependentUpon>Etat_Class_2emP_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Encadreur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Encadreur.Designer.cs">
+      <DependentUpon>Etat_Encadreur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elementaire_Primaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elementaire_Primaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elementaire_Primaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elementaire_Secondaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elementaire_Secondaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elementaire_Secondaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Prim_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Prim_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elem_Prim_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Prim_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Prim_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elem_Prim_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Seco_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Seco_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elem_Seco_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Seco_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Elem_Seco_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Elem_Seco_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Femme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Femme.Designer.cs">
+      <DependentUpon>Etat_Rapport_Femme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1.Designer.cs">
+      <DependentUpon>Etat_Rapport_G1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_G1_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G1_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_G1_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2.Designer.cs">
+      <DependentUpon>Etat_Rapport_G2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_G2_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G2_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_G2_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_G3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_G3.Designer.cs">
+      <DependentUpon>Etat_Rapport_G3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +300,69 @@
     <Compile Include="Province.cs" />
     <Compile Include="Territoire.cs" />
     <Compile Include="Ville.cs" />
+    <EmbeddedResource Include="Etat_Class3emP_Femmes.resx">
+      <DependentUpon>Etat_Class3emP_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Class3emP_Hommes.resx">
+      <DependentUpon>Etat_Class3emP_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Class_1erP_Femmes.resx">
+      <DependentUpon>Etat_Class_1erP_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Class_1erp_Hommes.resx">
+      <DependentUpon>Etat_Class_1erp_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Class_2emP_Femmes.resx">
+      <DependentUpon>Etat_Class_2emP_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Class_2emP_Hommes.resx">
+      <DependentUpon>Etat_Class_2emP_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Encadreur.resx">
+      <DependentUpon>Etat_Encadreur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elementaire_Primaire.resx">
+      <DependentUpon>Etat_Rapport_Elementaire_Primaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elementaire_Secondaire.resx">
+      <DependentUpon>Etat_Rapport_Elementaire_Secondaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elem_Prim_Femmes.resx">
+      <DependentUpon>Etat_Rapport_Elem_Prim_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elem_Prim_Hommes.resx">
+      <DependentUpon>Etat_Rapport_Elem_Prim_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elem_Seco_Femmes.resx">
+      <DependentUpon>Etat_Rapport_Elem_Seco_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Elem_Seco_Hommes.resx">
+      <DependentUpon>Etat_Rapport_Elem_Seco_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Femme.resx">
+      <DependentUpon>Etat_Rapport_Femme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G1.resx">
+      <DependentUpon>Etat_Rapport_G1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G1_Femmes.resx">
+      <DependentUpon>Etat_Rapport_G1_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G1_Hommes.resx">
+      <DependentUpon>Etat_Rapport_G1_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G2.resx">
+      <DependentUpon>Etat_Rapport_G2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G2_Femmes.resx">
+      <DependentUpon>Etat_Rapport_G2_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G2_Hommes.resx">
+      <DependentUpon>Etat_Rapport_G2_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_G3.resx">
+      <DependentUpon>Etat_Rapport_G3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

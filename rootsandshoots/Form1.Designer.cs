@@ -173,6 +173,7 @@
             this.AproposDeROOTSHOOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AProposDeLAuteurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RAPPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rapportEncadreurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupBox16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).BeginInit();
             this.SplitContainer1.Panel1.SuspendLayout();
@@ -188,20 +189,23 @@
             this.HommesToolStripMenuItem5,
             this.FemmesToolStripMenuItem5});
             this.G2ToolStripMenuItem.Name = "G2ToolStripMenuItem";
-            this.G2ToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.G2ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.G2ToolStripMenuItem.Text = "G2";
+            this.G2ToolStripMenuItem.Click += new System.EventHandler(this.G2ToolStripMenuItem_Click);
             // 
             // HommesToolStripMenuItem5
             // 
             this.HommesToolStripMenuItem5.Name = "HommesToolStripMenuItem5";
-            this.HommesToolStripMenuItem5.Size = new System.Drawing.Size(145, 24);
+            this.HommesToolStripMenuItem5.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem5.Text = "hommes";
+            this.HommesToolStripMenuItem5.Click += new System.EventHandler(this.HommesToolStripMenuItem5_Click);
             // 
             // FemmesToolStripMenuItem5
             // 
             this.FemmesToolStripMenuItem5.Name = "FemmesToolStripMenuItem5";
-            this.FemmesToolStripMenuItem5.Size = new System.Drawing.Size(145, 24);
+            this.FemmesToolStripMenuItem5.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem5.Text = "femmes";
+            this.FemmesToolStripMenuItem5.Click += new System.EventHandler(this.FemmesToolStripMenuItem5_Click);
             // 
             // FemmesToolStripMenuItem2
             // 
@@ -291,7 +295,7 @@
             this.L2ToolStripMenuItem});
             this.RapportsDesUniversitésToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RapportsDesUniversitésToolStripMenuItem.Name = "RapportsDesUniversitésToolStripMenuItem";
-            this.RapportsDesUniversitésToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
+            this.RapportsDesUniversitésToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
             this.RapportsDesUniversitésToolStripMenuItem.Text = "Rapports des Universités";
             // 
             // G1ToolStripMenuItem
@@ -300,20 +304,23 @@
             this.HommesToolStripMenuItem4,
             this.FemmesToolStripMenuItem4});
             this.G1ToolStripMenuItem.Name = "G1ToolStripMenuItem";
-            this.G1ToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.G1ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.G1ToolStripMenuItem.Text = "G1";
+            this.G1ToolStripMenuItem.Click += new System.EventHandler(this.G1ToolStripMenuItem_Click);
             // 
             // HommesToolStripMenuItem4
             // 
             this.HommesToolStripMenuItem4.Name = "HommesToolStripMenuItem4";
-            this.HommesToolStripMenuItem4.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem4.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem4.Text = "Hommes";
+            this.HommesToolStripMenuItem4.Click += new System.EventHandler(this.HommesToolStripMenuItem4_Click);
             // 
             // FemmesToolStripMenuItem4
             // 
             this.FemmesToolStripMenuItem4.Name = "FemmesToolStripMenuItem4";
-            this.FemmesToolStripMenuItem4.Size = new System.Drawing.Size(148, 24);
+            this.FemmesToolStripMenuItem4.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem4.Text = "Femmes";
+            this.FemmesToolStripMenuItem4.Click += new System.EventHandler(this.FemmesToolStripMenuItem4_Click);
             // 
             // G3ToolStripMenuItem
             // 
@@ -321,8 +328,9 @@
             this.HommesToolStripMenuItem6,
             this.FemmesToolStripMenuItem6});
             this.G3ToolStripMenuItem.Name = "G3ToolStripMenuItem";
-            this.G3ToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.G3ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.G3ToolStripMenuItem.Text = "G3";
+            this.G3ToolStripMenuItem.Click += new System.EventHandler(this.G3ToolStripMenuItem_Click);
             // 
             // HommesToolStripMenuItem6
             // 
@@ -471,7 +479,7 @@
             this.DegreTerminaleToolStripMenuItem});
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Name = "RapportsDesEcolesSécondairesToolStripMenuItem";
-            this.RapportsDesEcolesSécondairesToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
+            this.RapportsDesEcolesSécondairesToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Text = "Rapports des Ecoles Sécondaires";
             // 
             // DegreElementaireToolStripMenuItem1
@@ -482,6 +490,7 @@
             this.DegreElementaireToolStripMenuItem1.Name = "DegreElementaireToolStripMenuItem1";
             this.DegreElementaireToolStripMenuItem1.Size = new System.Drawing.Size(228, 24);
             this.DegreElementaireToolStripMenuItem1.Text = "Degre Elementaire";
+            this.DegreElementaireToolStripMenuItem1.Click += new System.EventHandler(this.DegreElementaireToolStripMenuItem1_Click);
             // 
             // HommesToolStripMenuItem1
             // 
@@ -489,8 +498,9 @@
             this.ErCOToolStripMenuItem,
             this.ECOToolStripMenuItem});
             this.HommesToolStripMenuItem1.Name = "HommesToolStripMenuItem1";
-            this.HommesToolStripMenuItem1.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem1.Text = "Hommes";
+            this.HommesToolStripMenuItem1.Click += new System.EventHandler(this.HommesToolStripMenuItem1_Click);
             // 
             // ErCOToolStripMenuItem
             // 
@@ -510,8 +520,9 @@
             this.ErCOToolStripMenuItem1,
             this.ECOToolStripMenuItem1});
             this.FemmesToolStripMenuItem1.Name = "FemmesToolStripMenuItem1";
-            this.FemmesToolStripMenuItem1.Size = new System.Drawing.Size(148, 24);
+            this.FemmesToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem1.Text = "Femmes";
+            this.FemmesToolStripMenuItem1.Click += new System.EventHandler(this.FemmesToolStripMenuItem1_Click);
             // 
             // ErCOToolStripMenuItem1
             // 
@@ -589,7 +600,7 @@
             this.EncadreurCoordinateurToolStripMenuItem});
             this.RapportDesChefsDesClubsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RapportDesChefsDesClubsToolStripMenuItem.Name = "RapportDesChefsDesClubsToolStripMenuItem";
-            this.RapportDesChefsDesClubsToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
+            this.RapportDesChefsDesClubsToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
             this.RapportDesChefsDesClubsToolStripMenuItem.Text = "Rapport des Chefs des Clubs";
             // 
             // PresidentToolStripMenuItem
@@ -603,6 +614,7 @@
             this.EncadreurCoordinateurToolStripMenuItem.Name = "EncadreurCoordinateurToolStripMenuItem";
             this.EncadreurCoordinateurToolStripMenuItem.Size = new System.Drawing.Size(270, 24);
             this.EncadreurCoordinateurToolStripMenuItem.Text = "Encadreur/Coordinateur";
+            this.EncadreurCoordinateurToolStripMenuItem.Click += new System.EventHandler(this.EncadreurCoordinateurToolStripMenuItem_Click);
             // 
             // MenuStrip2
             // 
@@ -729,8 +741,9 @@
             // EToolStripMenuItem7
             // 
             this.EToolStripMenuItem7.Name = "EToolStripMenuItem7";
-            this.EToolStripMenuItem7.Size = new System.Drawing.Size(98, 24);
+            this.EToolStripMenuItem7.Size = new System.Drawing.Size(180, 24);
             this.EToolStripMenuItem7.Text = "3e";
+            this.EToolStripMenuItem7.Click += new System.EventHandler(this.EToolStripMenuItem7_Click);
             // 
             // GroupBox16
             // 
@@ -1155,6 +1168,7 @@
             this.FemininToolStripMenuItem.Name = "FemininToolStripMenuItem";
             this.FemininToolStripMenuItem.Size = new System.Drawing.Size(205, 24);
             this.FemininToolStripMenuItem.Text = "Femmes Affilier";
+            this.FemininToolStripMenuItem.Click += new System.EventHandler(this.FemininToolStripMenuItem_Click);
             // 
             // VilleTerritoireToolStripMenuItem
             // 
@@ -1171,7 +1185,7 @@
             this.FemininToolStripMenuItem});
             this.RapportParSexeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RapportParSexeToolStripMenuItem.Name = "RapportParSexeToolStripMenuItem";
-            this.RapportParSexeToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
+            this.RapportParSexeToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
             this.RapportParSexeToolStripMenuItem.Text = "Rapport par Sexe";
             // 
             // RapportDesEcolesPrimairesToolStripMenuItem
@@ -1193,6 +1207,7 @@
             this.DegreElementaireToolStripMenuItem.Name = "DegreElementaireToolStripMenuItem";
             this.DegreElementaireToolStripMenuItem.Size = new System.Drawing.Size(228, 24);
             this.DegreElementaireToolStripMenuItem.Text = "Degre Elementaire";
+            this.DegreElementaireToolStripMenuItem.Click += new System.EventHandler(this.DegreElementaireToolStripMenuItem_Click);
             // 
             // HommesToolStripMenuItem
             // 
@@ -1200,20 +1215,23 @@
             this.ErToolStripMenuItem,
             this.EToolStripMenuItem4});
             this.HommesToolStripMenuItem.Name = "HommesToolStripMenuItem";
-            this.HommesToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem.Text = "Hommes";
+            this.HommesToolStripMenuItem.Click += new System.EventHandler(this.HommesToolStripMenuItem_Click);
             // 
             // ErToolStripMenuItem
             // 
             this.ErToolStripMenuItem.Name = "ErToolStripMenuItem";
-            this.ErToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.ErToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.ErToolStripMenuItem.Text = "1er";
+            this.ErToolStripMenuItem.Click += new System.EventHandler(this.ErToolStripMenuItem_Click);
             // 
             // EToolStripMenuItem4
             // 
             this.EToolStripMenuItem4.Name = "EToolStripMenuItem4";
-            this.EToolStripMenuItem4.Size = new System.Drawing.Size(104, 24);
+            this.EToolStripMenuItem4.Size = new System.Drawing.Size(180, 24);
             this.EToolStripMenuItem4.Text = "2e";
+            this.EToolStripMenuItem4.Click += new System.EventHandler(this.EToolStripMenuItem4_Click);
             // 
             // FemmesToolStripMenuItem
             // 
@@ -1221,20 +1239,23 @@
             this.ErToolStripMenuItem1,
             this.EToolStripMenuItem5});
             this.FemmesToolStripMenuItem.Name = "FemmesToolStripMenuItem";
-            this.FemmesToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.FemmesToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem.Text = "Femmes";
+            this.FemmesToolStripMenuItem.Click += new System.EventHandler(this.FemmesToolStripMenuItem_Click);
             // 
             // ErToolStripMenuItem1
             // 
             this.ErToolStripMenuItem1.Name = "ErToolStripMenuItem1";
-            this.ErToolStripMenuItem1.Size = new System.Drawing.Size(104, 24);
+            this.ErToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
             this.ErToolStripMenuItem1.Text = "1er";
+            this.ErToolStripMenuItem1.Click += new System.EventHandler(this.ErToolStripMenuItem1_Click);
             // 
             // EToolStripMenuItem5
             // 
             this.EToolStripMenuItem5.Name = "EToolStripMenuItem5";
-            this.EToolStripMenuItem5.Size = new System.Drawing.Size(104, 24);
+            this.EToolStripMenuItem5.Size = new System.Drawing.Size(180, 24);
             this.EToolStripMenuItem5.Text = "2e";
+            this.EToolStripMenuItem5.Click += new System.EventHandler(this.EToolStripMenuItem5_Click);
             // 
             // DegreMoyenToolStripMenuItem
             // 
@@ -1251,14 +1272,15 @@
             this.ErToolStripMenuItem2,
             this.EToolStripMenuItem6});
             this.EToolStripMenuItem.Name = "EToolStripMenuItem";
-            this.EToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.EToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.EToolStripMenuItem.Text = "Hommes";
             // 
             // ErToolStripMenuItem2
             // 
             this.ErToolStripMenuItem2.Name = "ErToolStripMenuItem2";
-            this.ErToolStripMenuItem2.Size = new System.Drawing.Size(98, 24);
+            this.ErToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
             this.ErToolStripMenuItem2.Text = "3e";
+            this.ErToolStripMenuItem2.Click += new System.EventHandler(this.ErToolStripMenuItem2_Click);
             // 
             // EToolStripMenuItem6
             // 
@@ -1272,7 +1294,7 @@
             this.EToolStripMenuItem7,
             this.EToolStripMenuItem8});
             this.EToolStripMenuItem3.Name = "EToolStripMenuItem3";
-            this.EToolStripMenuItem3.Size = new System.Drawing.Size(148, 24);
+            this.EToolStripMenuItem3.Size = new System.Drawing.Size(180, 24);
             this.EToolStripMenuItem3.Text = "Femmes";
             // 
             // CommandeToolStripMenuItem1
@@ -1328,7 +1350,7 @@
             this.BToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.BToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BToolStripMenuItem.Name = "BToolStripMenuItem";
-            this.BToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.BToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.BToolStripMenuItem.Text = "Pays";
             this.BToolStripMenuItem.Click += new System.EventHandler(this.BToolStripMenuItem_Click);
             // 
@@ -1337,7 +1359,7 @@
             this.StockToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.StockToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StockToolStripMenuItem.Name = "StockToolStripMenuItem";
-            this.StockToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.StockToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.StockToolStripMenuItem.Text = "Province";
             this.StockToolStripMenuItem.Click += new System.EventHandler(this.StockToolStripMenuItem_Click);
             // 
@@ -1346,7 +1368,7 @@
             this.DepotToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.DepotToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DepotToolStripMenuItem.Name = "DepotToolStripMenuItem";
-            this.DepotToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.DepotToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.DepotToolStripMenuItem.Text = "Territoire";
             this.DepotToolStripMenuItem.Click += new System.EventHandler(this.DepotToolStripMenuItem_Click);
             // 
@@ -1355,7 +1377,7 @@
             this.FournissurToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.FournissurToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FournissurToolStripMenuItem.Name = "FournissurToolStripMenuItem";
-            this.FournissurToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.FournissurToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.FournissurToolStripMenuItem.Text = "Ville";
             this.FournissurToolStripMenuItem.Click += new System.EventHandler(this.FournissurToolStripMenuItem_Click);
             // 
@@ -1364,7 +1386,7 @@
             this.CommandeToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.CommandeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CommandeToolStripMenuItem.Name = "CommandeToolStripMenuItem";
-            this.CommandeToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.CommandeToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.CommandeToolStripMenuItem.Text = "Club";
             this.CommandeToolStripMenuItem.Click += new System.EventHandler(this.CommandeToolStripMenuItem_Click);
             // 
@@ -1373,7 +1395,7 @@
             this.DemmandeToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.DemmandeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DemmandeToolStripMenuItem.Name = "DemmandeToolStripMenuItem";
-            this.DemmandeToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.DemmandeToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.DemmandeToolStripMenuItem.Text = "Membre";
             this.DemmandeToolStripMenuItem.Click += new System.EventHandler(this.DemmandeToolStripMenuItem_Click);
             // 
@@ -1382,7 +1404,7 @@
             this.MembreToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.MembreToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MembreToolStripMenuItem.Name = "MembreToolStripMenuItem";
-            this.MembreToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.MembreToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
             this.MembreToolStripMenuItem.Text = "Affiliation";
             this.MembreToolStripMenuItem.Click += new System.EventHandler(this.MembreToolStripMenuItem_Click);
             // 
@@ -1402,7 +1424,7 @@
             this.AJOUTERToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.AJOUTERToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AJOUTERToolStripMenuItem.Name = "AJOUTERToolStripMenuItem";
-            this.AJOUTERToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.AJOUTERToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
             this.AJOUTERToolStripMenuItem.Text = "AJOUTER";
             this.AJOUTERToolStripMenuItem.Click += new System.EventHandler(this.AJOUTERToolStripMenuItem_Click);
             // 
@@ -1456,12 +1478,19 @@
             this.RapportsDesEcolesSécondairesToolStripMenuItem,
             this.RapportsDesUniversitésToolStripMenuItem,
             this.ParClassePromotionToolStripMenuItem,
-            this.RapportDesChefsDesClubsToolStripMenuItem});
+            this.RapportDesChefsDesClubsToolStripMenuItem,
+            this.rapportEncadreurToolStripMenuItem});
             this.RAPPORTToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPPORTToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.RAPPORTToolStripMenuItem.Name = "RAPPORTToolStripMenuItem";
             this.RAPPORTToolStripMenuItem.Size = new System.Drawing.Size(125, 28);
             this.RAPPORTToolStripMenuItem.Text = "RAPPORT";
+            // 
+            // rapportEncadreurToolStripMenuItem
+            // 
+            this.rapportEncadreurToolStripMenuItem.Name = "rapportEncadreurToolStripMenuItem";
+            this.rapportEncadreurToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
+            this.rapportEncadreurToolStripMenuItem.Text = "Rapport Encadreur";
             // 
             // Form1
             // 
@@ -1635,6 +1664,7 @@
         internal System.Windows.Forms.ToolStripMenuItem AproposDeROOTSHOOTToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem AProposDeLAuteurToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem RAPPORTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rapportEncadreurToolStripMenuItem;
     }
 }
 
