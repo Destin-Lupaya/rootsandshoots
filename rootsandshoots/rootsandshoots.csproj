@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,8 +68,155 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAffiliation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAffiliation.Designer.cs">
+      <DependentUpon>FormAffiliation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAjoutUtilisateur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAjoutUtilisateur.Designer.cs">
+      <DependentUpon>FormAjoutUtilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAproposdeAutor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAproposdeAutor.Designer.cs">
+      <DependentUpon>FormAproposdeAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAproposdeNous.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAproposdeNous.Designer.cs">
+      <DependentUpon>FormAproposdeNous.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAproposdeRS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAproposdeRS.Designer.cs">
+      <DependentUpon>FormAproposdeRS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClub.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormClub.Designer.cs">
+      <DependentUpon>FormClub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExporttoExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExporttoExcel.Designer.cs">
+      <DependentUpon>FormExporttoExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportToExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportToExcel.Designer.cs">
+      <DependentUpon>FormImportToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMembre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormMembre.Designer.cs">
+      <DependentUpon>FormMembre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMembre2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormMembre2.Designer.cs">
+      <DependentUpon>FormMembre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormPays.Designer.cs">
+      <DependentUpon>FormPays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProvince.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormProvince.Designer.cs">
+      <DependentUpon>FormProvince.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTerritoire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormTerritoire.Designer.cs">
+      <DependentUpon>FormTerritoire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVille.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormVille.Designer.cs">
+      <DependentUpon>FormVille.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAffiliation.resx">
+      <DependentUpon>FormAffiliation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAjoutUtilisateur.resx">
+      <DependentUpon>FormAjoutUtilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAproposdeAutor.resx">
+      <DependentUpon>FormAproposdeAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAproposdeNous.resx">
+      <DependentUpon>FormAproposdeNous.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAproposdeRS.resx">
+      <DependentUpon>FormAproposdeRS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClub.resx">
+      <DependentUpon>FormClub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExporttoExcel.resx">
+      <DependentUpon>FormExporttoExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportToExcel.resx">
+      <DependentUpon>FormImportToExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMembre.resx">
+      <DependentUpon>FormMembre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMembre2.resx">
+      <DependentUpon>FormMembre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPays.resx">
+      <DependentUpon>FormPays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProvince.resx">
+      <DependentUpon>FormProvince.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTerritoire.resx">
+      <DependentUpon>FormTerritoire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVille.resx">
+      <DependentUpon>FormVille.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,6 +238,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
