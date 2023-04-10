@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace rootsandshoots
 {
@@ -41,5 +42,59 @@ namespace rootsandshoots
         public string AdresseCoordinateur1 { get => AdresseCoordinateur; set => AdresseCoordinateur = value; }
         public string Telephone1 { get => Telephone; set => Telephone = value; }
         public string Mail { get => mail; set => mail = value; }
+
+        // Construction d'insertion et Modification
+
+        public Club(String CodeClub1, String NomClub1, String AnneeAdhesion1, String CodeAffiliation1, String TypeAdhesion1, String NombreMembres1, String GroupeAge1, String AdresseClub1, String Territoire_Ville1, String Province1, String NomPresidentClub1, String NomCoordinateur1, String ProfessionCoordinateur1, String AdresseCoordinateur1 , String Telephone1, String Mail)
+        {
+            this.CodeClub = CodeClub1;
+            this.NomClub = NomClub1;
+            this.AnneeAdhesion = AnneeAdhesion1;
+            this.CodeAffiliation = CodeAffiliation1;
+            this.TypeAdhesion = TypeAdhesion1;
+            this.NombreMembres = NombreMembres1;
+            this.GroupeAge = GroupeAge1;
+            this.AdresseClub = AdresseClub1;
+            this.Territoire_Ville = Territoire_Ville1;
+            this.Province = Province1;
+            this.NomPresidentClub = NomPresidentClub1;
+            this.NomCoordinateur = NomCoordinateur1;
+            this.ProfessionCoordinateur = ProfessionCoordinateur1;
+            this.AdresseCoordinateur = AdresseCoordinateur1;
+            this.Telephone = Telephone1;
+            this.Mail = Mail;
+        }
+        public Club()
+        {
+
+        }
+
+        //Constructeur de Suppresion
+        public Club(int Codeclu)
+        {
+            this.CodeClub = CodeClub1;
+        }
+
+        public void EnregistrerAgent(String A, String B, String C, String D, String E, String F, String G, String H, String I, String J)
+        {
+
+            try
+            {
+                Donnees RootsAndShoots = new Donnees();
+                RootsAndShoots.connecter();
+                RootsAndShoots.Cmd = RootsAndShoots.Con.CreateCommand();
+                RootsAndShoots.Cmd.CommandText = string.Format(@"INSERT INTO Agents(Id_Agent,Login_Compte,NomAg,PostNomAg,PrenomAg,SexeAg,FonctionAg,ServiceAg,Tel,PassWord1) values ('" + A + "','" + B + "','" + C + "','" + D + "','" + E + "','" + F + "','" + G + "','" + H + "','" + I + "','" + J + "')");
+                RootsAndShoots.Cmd.ExecuteNonQuery();
+                MessageBox.Show("Création effectué avec succès!'" + NomClub + "'");
+                RootsAndShoots.deconnecter();
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+
     }
 }

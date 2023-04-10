@@ -56,7 +56,7 @@ namespace rootsandshoots
 
         }
         //Constructeur de Suppresion
-        public Membre(int IdAge)
+        public Membre(int CodeM)
         {
             this.CodeMembre = CodeMembre1;
         }
