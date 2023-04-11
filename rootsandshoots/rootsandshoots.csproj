@@ -191,6 +191,60 @@
     <Compile Include="Etat_Rapport_G3.Designer.cs">
       <DependentUpon>Etat_Rapport_G3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Etat_Rapport_Homme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Homme.Designer.cs">
+      <DependentUpon>Etat_Rapport_Homme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1.Designer.cs">
+      <DependentUpon>Etat_Rapport_L1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_L1_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L1_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_L1_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2.Designer.cs">
+      <DependentUpon>Etat_Rapport_L2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_L2_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_L2_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_L2_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_MbreJeunes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_MbreJeunes.Designer.cs">
+      <DependentUpon>Etat_Rapport_MbreJeunes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_MbreVieux.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_MbreVieux.Designer.cs">
+      <DependentUpon>Etat_Rapport_MbreVieux.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -362,6 +416,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_Rapport_G3.resx">
       <DependentUpon>Etat_Rapport_G3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Homme.resx">
+      <DependentUpon>Etat_Rapport_Homme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L1.resx">
+      <DependentUpon>Etat_Rapport_L1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L1_Femmes.resx">
+      <DependentUpon>Etat_Rapport_L1_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L1_Hommes.resx">
+      <DependentUpon>Etat_Rapport_L1_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L2.resx">
+      <DependentUpon>Etat_Rapport_L2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L2_Femmes.resx">
+      <DependentUpon>Etat_Rapport_L2_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_L2_Hommes.resx">
+      <DependentUpon>Etat_Rapport_L2_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_MbreJeunes.resx">
+      <DependentUpon>Etat_Rapport_MbreJeunes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_MbreVieux.resx">
+      <DependentUpon>Etat_Rapport_MbreVieux.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
