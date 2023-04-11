@@ -149,6 +149,12 @@
     <Compile Include="Etat_RapportClass_3e.Designer.cs">
       <DependentUpon>Etat_RapportClass_3e.cs</DependentUpon>
     </Compile>
+    <Compile Include="Etat_RapportClass_3edesHumanites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_3edesHumanites.Designer.cs">
+      <DependentUpon>Etat_RapportClass_3edesHumanites.cs</DependentUpon>
+    </Compile>
     <Compile Include="Etat_RapportClass_3edesH_Femmes.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +166,96 @@
     </Compile>
     <Compile Include="Etat_RapportClass_3edesH_Hommes.Designer.cs">
       <DependentUpon>Etat_RapportClass_3edesH_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4e.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4edesHumanites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites_Femmes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4edesHumanites_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4edesHumanites_Hommes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4edesHumanites_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e_Femmes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4e_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_4e_Hommes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_4e_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5e.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHumanites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHumanites.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5edesHumanites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHum_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHum_Femmes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5edesHum_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHum_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5edesHum_Hommes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5edesHum_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e_Femmes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5e_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_5e_Hommes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_5e_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e.Designer.cs">
+      <DependentUpon>Etat_RapportClass_6e.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e_Femmes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_6e_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportClass_6e_Hommes.Designer.cs">
+      <DependentUpon>Etat_RapportClass_6e_Hommes.cs</DependentUpon>
     </Compile>
     <Compile Include="Etat_Rapport_Elementaire_Primaire.cs">
       <SubType>UserControl</SubType>
@@ -540,11 +636,59 @@
     <EmbeddedResource Include="Etat_RapportClass_3e.resx">
       <DependentUpon>Etat_RapportClass_3e.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_3edesHumanites.resx">
+      <DependentUpon>Etat_RapportClass_3edesHumanites.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Etat_RapportClass_3edesH_Femmes.resx">
       <DependentUpon>Etat_RapportClass_3edesH_Femmes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_RapportClass_3edesH_Hommes.resx">
       <DependentUpon>Etat_RapportClass_3edesH_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4e.resx">
+      <DependentUpon>Etat_RapportClass_4e.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4edesHumanites.resx">
+      <DependentUpon>Etat_RapportClass_4edesHumanites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4edesHumanites_Femmes.resx">
+      <DependentUpon>Etat_RapportClass_4edesHumanites_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4edesHumanites_Hommes.resx">
+      <DependentUpon>Etat_RapportClass_4edesHumanites_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4e_Femmes.resx">
+      <DependentUpon>Etat_RapportClass_4e_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_4e_Hommes.resx">
+      <DependentUpon>Etat_RapportClass_4e_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5e.resx">
+      <DependentUpon>Etat_RapportClass_5e.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5edesHumanites.resx">
+      <DependentUpon>Etat_RapportClass_5edesHumanites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5edesHum_Femmes.resx">
+      <DependentUpon>Etat_RapportClass_5edesHum_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5edesHum_Hommes.resx">
+      <DependentUpon>Etat_RapportClass_5edesHum_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5e_Femmes.resx">
+      <DependentUpon>Etat_RapportClass_5e_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_5e_Hommes.resx">
+      <DependentUpon>Etat_RapportClass_5e_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_6e.resx">
+      <DependentUpon>Etat_RapportClass_6e.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_6e_Femmes.resx">
+      <DependentUpon>Etat_RapportClass_6e_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportClass_6e_Hommes.resx">
+      <DependentUpon>Etat_RapportClass_6e_Hommes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_Rapport_Elementaire_Primaire.resx">
       <DependentUpon>Etat_Rapport_Elementaire_Primaire.cs</DependentUpon>

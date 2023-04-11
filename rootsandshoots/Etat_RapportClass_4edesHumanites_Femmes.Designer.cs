@@ -1,6 +1,6 @@
 ﻿namespace rootsandshoots
 {
-    partial class Etat_RapportClass_3edesHumanites
+    partial class Etat_RapportClass_4edesHumanites_Femmes
     {
         /// <summary> 
         /// Variable nécessaire au concepteur.
@@ -31,7 +31,7 @@
             this.Panel1 = new System.Windows.Forms.Panel();
             this.Button1 = new System.Windows.Forms.Button();
             this.Label1 = new System.Windows.Forms.Label();
-            this.CboPrimaire9 = new System.Windows.Forms.ComboBox();
+            this.CboPrimaire1 = new System.Windows.Forms.ComboBox();
             this.Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,11 +40,11 @@
             this.Panel1.BackColor = System.Drawing.Color.Transparent;
             this.Panel1.Controls.Add(this.Button1);
             this.Panel1.Controls.Add(this.Label1);
-            this.Panel1.Controls.Add(this.CboPrimaire9);
-            this.Panel1.Location = new System.Drawing.Point(16, 21);
+            this.Panel1.Controls.Add(this.CboPrimaire1);
+            this.Panel1.Location = new System.Drawing.Point(12, 17);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(964, 39);
-            this.Panel1.TabIndex = 24;
+            this.Panel1.TabIndex = 20;
             // 
             // Button1
             // 
@@ -64,25 +64,25 @@
             this.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Label1.Location = new System.Drawing.Point(30, 8);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(274, 15);
+            this.Label1.Size = new System.Drawing.Size(271, 15);
             this.Label1.TabIndex = 3;
-            this.Label1.Text = "Derouler pour voir les Eleves de 3e des Humanites";
+            this.Label1.Text = "Derouler pour voir les Filles de 4er Des humanites";
             // 
-            // CboPrimaire9
+            // CboPrimaire1
             // 
-            this.CboPrimaire9.FormattingEnabled = true;
-            this.CboPrimaire9.Location = new System.Drawing.Point(325, 6);
-            this.CboPrimaire9.Name = "CboPrimaire9";
-            this.CboPrimaire9.Size = new System.Drawing.Size(181, 21);
-            this.CboPrimaire9.TabIndex = 2;
+            this.CboPrimaire1.FormattingEnabled = true;
+            this.CboPrimaire1.Location = new System.Drawing.Point(325, 6);
+            this.CboPrimaire1.Name = "CboPrimaire1";
+            this.CboPrimaire1.Size = new System.Drawing.Size(181, 21);
+            this.CboPrimaire1.TabIndex = 2;
             // 
-            // Etat_RapportClass_3edesHumanites
+            // Etat_RapportClass_4edesHumanites_Femmes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Panel1);
-            this.Name = "Etat_RapportClass_3edesHumanites";
-            this.Size = new System.Drawing.Size(1052, 606);
+            this.Name = "Etat_RapportClass_4edesHumanites_Femmes";
+            this.Size = new System.Drawing.Size(1064, 602);
             this.Panel1.ResumeLayout(false);
             this.Panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -94,6 +94,6 @@
         internal System.Windows.Forms.Panel Panel1;
         internal System.Windows.Forms.Button Button1;
         internal System.Windows.Forms.Label Label1;
-        internal System.Windows.Forms.ComboBox CboPrimaire9;
+        internal System.Windows.Forms.ComboBox CboPrimaire1;
     }
 }
