@@ -245,6 +245,18 @@
     <Compile Include="Etat_Rapport_MbreVieux.Designer.cs">
       <DependentUpon>Etat_Rapport_MbreVieux.cs</DependentUpon>
     </Compile>
+    <Compile Include="Etat_Rapport_Moyen_Primaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moyen_Primaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Moyen_Primaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moyen_Secondaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moyen_Secondaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Moyen_Secondaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Etat_Rapport_Moye_Prim_Femmes.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -256,6 +268,54 @@
     </Compile>
     <Compile Include="Etat_Rapport_Moye_Prim_Hommes.Designer.cs">
       <DependentUpon>Etat_Rapport_Moye_Prim_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moye_Sec_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moye_Sec_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Moye_Sec_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moye_Sec_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Moye_Sec_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Moye_Sec_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Primaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Primaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Primaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Secondaire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Secondaire.Designer.cs">
+      <DependentUpon>Etat_Rapport_Secondaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_term_Prim_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_term_Prim_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_term_Prim_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_term_Prim_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_term_Prim_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_term_Prim_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Term_Sec_Femmes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Term_Sec_Femmes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Term_Sec_Femmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_Rapport_Term_Sec_Hommes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_Rapport_Term_Sec_Hommes.Designer.cs">
+      <DependentUpon>Etat_Rapport_Term_Sec_Hommes.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -456,11 +516,41 @@
     <EmbeddedResource Include="Etat_Rapport_MbreVieux.resx">
       <DependentUpon>Etat_Rapport_MbreVieux.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Moyen_Primaire.resx">
+      <DependentUpon>Etat_Rapport_Moyen_Primaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Moyen_Secondaire.resx">
+      <DependentUpon>Etat_Rapport_Moyen_Secondaire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Etat_Rapport_Moye_Prim_Femmes.resx">
       <DependentUpon>Etat_Rapport_Moye_Prim_Femmes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_Rapport_Moye_Prim_Hommes.resx">
       <DependentUpon>Etat_Rapport_Moye_Prim_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Moye_Sec_Femmes.resx">
+      <DependentUpon>Etat_Rapport_Moye_Sec_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Moye_Sec_Hommes.resx">
+      <DependentUpon>Etat_Rapport_Moye_Sec_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Primaire.resx">
+      <DependentUpon>Etat_Rapport_Primaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Secondaire.resx">
+      <DependentUpon>Etat_Rapport_Secondaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_term_Prim_Femmes.resx">
+      <DependentUpon>Etat_Rapport_term_Prim_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_term_Prim_Hommes.resx">
+      <DependentUpon>Etat_Rapport_term_Prim_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Term_Sec_Femmes.resx">
+      <DependentUpon>Etat_Rapport_Term_Sec_Femmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_Rapport_Term_Sec_Hommes.resx">
+      <DependentUpon>Etat_Rapport_Term_Sec_Hommes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
