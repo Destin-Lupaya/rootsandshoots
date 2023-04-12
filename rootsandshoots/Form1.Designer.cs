@@ -173,7 +173,6 @@
             this.AproposDeROOTSHOOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AProposDeLAuteurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RAPPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rapportEncadreurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupBox16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SplitContainer1)).BeginInit();
             this.SplitContainer1.Panel1.SuspendLayout();
@@ -284,6 +283,7 @@
             this.EDesHumanitesToolStripMenuItem1.Name = "EDesHumanitesToolStripMenuItem1";
             this.EDesHumanitesToolStripMenuItem1.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem1.Text = "4e des Humanites";
+            this.EDesHumanitesToolStripMenuItem1.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem1_Click);
             // 
             // RapportsDesUniversitésToolStripMenuItem
             // 
@@ -449,6 +449,7 @@
             this.EDesHumanitesToolStripMenuItem.Name = "EDesHumanitesToolStripMenuItem";
             this.EDesHumanitesToolStripMenuItem.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem.Text = "3e des Humanites";
+            this.EDesHumanitesToolStripMenuItem.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem_Click);
             // 
             // Button3
             // 
@@ -475,7 +476,7 @@
             this.EDesHumanitesToolStripMenuItem,
             this.EDesHumanitesToolStripMenuItem1});
             this.HommesToolStripMenuItem2.Name = "HommesToolStripMenuItem2";
-            this.HommesToolStripMenuItem2.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem2.Text = "Hommes";
             // 
             // RapportsDesEcolesSécondairesToolStripMenuItem
@@ -486,7 +487,7 @@
             this.DegreTerminaleToolStripMenuItem});
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Name = "RapportsDesEcolesSécondairesToolStripMenuItem";
-            this.RapportsDesEcolesSécondairesToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
+            this.RapportsDesEcolesSécondairesToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
             this.RapportsDesEcolesSécondairesToolStripMenuItem.Text = "Rapports des Ecoles Sécondaires";
             // 
             // DegreElementaireToolStripMenuItem1
@@ -505,15 +506,16 @@
             this.ErCOToolStripMenuItem,
             this.ECOToolStripMenuItem});
             this.HommesToolStripMenuItem1.Name = "HommesToolStripMenuItem1";
-            this.HommesToolStripMenuItem1.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem1.Text = "Hommes";
             this.HommesToolStripMenuItem1.Click += new System.EventHandler(this.HommesToolStripMenuItem1_Click);
             // 
             // ErCOToolStripMenuItem
             // 
             this.ErCOToolStripMenuItem.Name = "ErCOToolStripMenuItem";
-            this.ErCOToolStripMenuItem.Size = new System.Drawing.Size(134, 24);
+            this.ErCOToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.ErCOToolStripMenuItem.Text = "1er CO";
+            this.ErCOToolStripMenuItem.Click += new System.EventHandler(this.ErCOToolStripMenuItem_Click);
             // 
             // ECOToolStripMenuItem
             // 
@@ -557,18 +559,21 @@
             this.EDesHumanitesToolStripMenuItem8.Name = "EDesHumanitesToolStripMenuItem8";
             this.EDesHumanitesToolStripMenuItem8.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem8.Text = "4e des Humanites";
+            this.EDesHumanitesToolStripMenuItem8.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem8_Click);
             // 
             // EDeHumanitesToolStripMenuItem
             // 
             this.EDeHumanitesToolStripMenuItem.Name = "EDeHumanitesToolStripMenuItem";
             this.EDeHumanitesToolStripMenuItem.Size = new System.Drawing.Size(223, 24);
             this.EDeHumanitesToolStripMenuItem.Text = "5e des Humanites";
+            this.EDeHumanitesToolStripMenuItem.Click += new System.EventHandler(this.EDeHumanitesToolStripMenuItem_Click);
             // 
             // EDesHumanitesToolStripMenuItem9
             // 
             this.EDesHumanitesToolStripMenuItem9.Name = "EDesHumanitesToolStripMenuItem9";
             this.EDesHumanitesToolStripMenuItem9.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem9.Text = "6e des Humanites";
+            this.EDesHumanitesToolStripMenuItem9.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem9_Click);
             // 
             // G1ToolStripMenuItem1
             // 
@@ -593,6 +598,7 @@
             this.EDesHumanitesToolStripMenuItem7.Name = "EDesHumanitesToolStripMenuItem7";
             this.EDesHumanitesToolStripMenuItem7.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem7.Text = "3e des Humanites";
+            this.EDesHumanitesToolStripMenuItem7.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem7_Click);
             // 
             // L1ToolStripMenuItem1
             // 
@@ -678,6 +684,7 @@
             this.ErCOToolStripMenuItem2.Name = "ErCOToolStripMenuItem2";
             this.ErCOToolStripMenuItem2.Size = new System.Drawing.Size(223, 24);
             this.ErCOToolStripMenuItem2.Text = "1er CO";
+            this.ErCOToolStripMenuItem2.Click += new System.EventHandler(this.ErCOToolStripMenuItem2_Click);
             // 
             // ParClassePromotionToolStripMenuItem
             // 
@@ -701,7 +708,7 @@
             this.L2ToolStripMenuItem1});
             this.ParClassePromotionToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ParClassePromotionToolStripMenuItem.Name = "ParClassePromotionToolStripMenuItem";
-            this.ParClassePromotionToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
+            this.ParClassePromotionToolStripMenuItem.Size = new System.Drawing.Size(351, 24);
             this.ParClassePromotionToolStripMenuItem.Text = "Par Classe/Promotion";
             // 
             // ErToolStripMenuItem4
@@ -1499,19 +1506,12 @@
             this.RapportsDesEcolesSécondairesToolStripMenuItem,
             this.RapportsDesUniversitésToolStripMenuItem,
             this.ParClassePromotionToolStripMenuItem,
-            this.RapportDesChefsDesClubsToolStripMenuItem,
-            this.rapportEncadreurToolStripMenuItem});
+            this.RapportDesChefsDesClubsToolStripMenuItem});
             this.RAPPORTToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RAPPORTToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.RAPPORTToolStripMenuItem.Name = "RAPPORTToolStripMenuItem";
             this.RAPPORTToolStripMenuItem.Size = new System.Drawing.Size(125, 28);
             this.RAPPORTToolStripMenuItem.Text = "RAPPORT";
-            // 
-            // rapportEncadreurToolStripMenuItem
-            // 
-            this.rapportEncadreurToolStripMenuItem.Name = "rapportEncadreurToolStripMenuItem";
-            this.rapportEncadreurToolStripMenuItem.Size = new System.Drawing.Size(351, 28);
-            this.rapportEncadreurToolStripMenuItem.Text = "Rapport Encadreur";
             // 
             // Form1
             // 
@@ -1685,7 +1685,6 @@
         internal System.Windows.Forms.ToolStripMenuItem AproposDeROOTSHOOTToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem AProposDeLAuteurToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem RAPPORTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rapportEncadreurToolStripMenuItem;
     }
 }
 

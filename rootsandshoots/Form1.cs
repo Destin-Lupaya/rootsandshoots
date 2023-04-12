@@ -461,6 +461,65 @@ namespace rootsandshoots
             Etat_RapportClass8eou2emCO A = new Etat_RapportClass8eou2emCO();
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
+
+        private void EDesHumanitesToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_3edesHumanites A = new Etat_RapportClass_3edesHumanites();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_4edesHumanites A = new Etat_RapportClass_4edesHumanites();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDeHumanitesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_5edesHumanites A = new Etat_RapportClass_5edesHumanites();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void EDesHumanitesToolStripMenuItem9_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_6edesHumanites A = new Etat_RapportClass_6edesHumanites();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void ErCOToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass7e_ou1erCO A = new Etat_RapportClass7e_ou1erCO();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+            
+        }
+
+        private void ErCOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.SplitContainer1.Panel2.Controls.Clear();
+            //Etat_RapportClass7e_ou1erCO A = new Etat_RapportClass7e_ou1erCO();
+            //this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_3edesH_Femmes A = new Etat_RapportClass_3edesH_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_4edesHumanites_Hommes A = new Etat_RapportClass_4edesHumanites_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
     }
     
 }
