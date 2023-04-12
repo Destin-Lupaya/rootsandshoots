@@ -559,6 +559,7 @@
             this.DegreMoyenToolStripMenuItem1.Name = "DegreMoyenToolStripMenuItem1";
             this.DegreMoyenToolStripMenuItem1.Size = new System.Drawing.Size(228, 24);
             this.DegreMoyenToolStripMenuItem1.Text = "Degre Moyen";
+            this.DegreMoyenToolStripMenuItem1.Click += new System.EventHandler(this.DegreMoyenToolStripMenuItem1_Click);
             // 
             // EDesHumanitesToolStripMenuItem8
             // 

@@ -562,6 +562,11 @@ namespace rootsandshoots
             Etat_RapportClass_6edesHum_Femmes A = new Etat_RapportClass_6edesHum_Femmes();
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
+
+        private void DegreMoyenToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
