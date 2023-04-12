@@ -212,7 +212,7 @@
             this.EDesHumanitesToolStripMenuItem2,
             this.EDesHumanitesToolStripMenuItem3});
             this.FemmesToolStripMenuItem2.Name = "FemmesToolStripMenuItem2";
-            this.FemmesToolStripMenuItem2.Size = new System.Drawing.Size(148, 24);
+            this.FemmesToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem2.Text = "Femmes";
             // 
             // EDesHumanitesToolStripMenuItem2
@@ -220,12 +220,14 @@
             this.EDesHumanitesToolStripMenuItem2.Name = "EDesHumanitesToolStripMenuItem2";
             this.EDesHumanitesToolStripMenuItem2.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem2.Text = "3e des Humanites";
+            this.EDesHumanitesToolStripMenuItem2.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem2_Click);
             // 
             // EDesHumanitesToolStripMenuItem3
             // 
             this.EDesHumanitesToolStripMenuItem3.Name = "EDesHumanitesToolStripMenuItem3";
             this.EDesHumanitesToolStripMenuItem3.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem3.Text = "4e des Humanites";
+            this.EDesHumanitesToolStripMenuItem3.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem3_Click);
             // 
             // DegreTerminaleToolStripMenuItem
             // 
@@ -242,7 +244,7 @@
             this.EDesHumanitesToolStripMenuItem4,
             this.EDesHumaintesToolStripMenuItem});
             this.HommesToolStripMenuItem3.Name = "HommesToolStripMenuItem3";
-            this.HommesToolStripMenuItem3.Size = new System.Drawing.Size(148, 24);
+            this.HommesToolStripMenuItem3.Size = new System.Drawing.Size(180, 24);
             this.HommesToolStripMenuItem3.Text = "Hommes";
             // 
             // EDesHumanitesToolStripMenuItem4
@@ -250,12 +252,14 @@
             this.EDesHumanitesToolStripMenuItem4.Name = "EDesHumanitesToolStripMenuItem4";
             this.EDesHumanitesToolStripMenuItem4.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem4.Text = "5e des Humanites";
+            this.EDesHumanitesToolStripMenuItem4.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem4_Click);
             // 
             // EDesHumaintesToolStripMenuItem
             // 
             this.EDesHumaintesToolStripMenuItem.Name = "EDesHumaintesToolStripMenuItem";
             this.EDesHumaintesToolStripMenuItem.Size = new System.Drawing.Size(223, 24);
             this.EDesHumaintesToolStripMenuItem.Text = "6e des Humaintes";
+            this.EDesHumaintesToolStripMenuItem.Click += new System.EventHandler(this.EDesHumaintesToolStripMenuItem_Click);
             // 
             // FemmesToolStripMenuItem3
             // 
@@ -263,7 +267,7 @@
             this.EDesHumanitesToolStripMenuItem5,
             this.EDesHumanitesToolStripMenuItem6});
             this.FemmesToolStripMenuItem3.Name = "FemmesToolStripMenuItem3";
-            this.FemmesToolStripMenuItem3.Size = new System.Drawing.Size(148, 24);
+            this.FemmesToolStripMenuItem3.Size = new System.Drawing.Size(180, 24);
             this.FemmesToolStripMenuItem3.Text = "Femmes";
             // 
             // EDesHumanitesToolStripMenuItem5
@@ -271,12 +275,14 @@
             this.EDesHumanitesToolStripMenuItem5.Name = "EDesHumanitesToolStripMenuItem5";
             this.EDesHumanitesToolStripMenuItem5.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem5.Text = "5e des Humanites";
+            this.EDesHumanitesToolStripMenuItem5.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem5_Click);
             // 
             // EDesHumanitesToolStripMenuItem6
             // 
             this.EDesHumanitesToolStripMenuItem6.Name = "EDesHumanitesToolStripMenuItem6";
             this.EDesHumanitesToolStripMenuItem6.Size = new System.Drawing.Size(223, 24);
             this.EDesHumanitesToolStripMenuItem6.Text = "6e des Humanites";
+            this.EDesHumanitesToolStripMenuItem6.Click += new System.EventHandler(this.EDesHumanitesToolStripMenuItem6_Click);
             // 
             // EDesHumanitesToolStripMenuItem1
             // 

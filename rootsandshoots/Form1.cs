@@ -520,6 +520,48 @@ namespace rootsandshoots
             Etat_RapportClass_4edesHumanites_Hommes A = new Etat_RapportClass_4edesHumanites_Hommes();
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
+
+        private void EDesHumanitesToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_3edesH_Femmes A = new Etat_RapportClass_3edesH_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_4edesHumanites_Femmes A = new Etat_RapportClass_4edesHumanites_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_5edesHum_Hommes A = new Etat_RapportClass_5edesHum_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumaintesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_6edesHum_Hommes A = new Etat_RapportClass_6edesHum_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_5edesHum_Femmes A = new Etat_RapportClass_5edesHum_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EDesHumanitesToolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_6edesHum_Femmes A = new Etat_RapportClass_6edesHum_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
     }
     
 }
