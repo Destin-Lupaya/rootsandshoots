@@ -314,6 +314,104 @@ namespace rootsandshoots
             this.SplitContainer1.Panel2.Controls.Add(A);
             
         }
+
+        private void MasculinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_Homme A = new Etat_Rapport_Homme();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void A25AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.SplitContainer1.Panel2.Controls.Clear();
+            //Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
+            //this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void MbresAgéEntre18Et35AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.SplitContainer1.Panel2.Controls.Clear();
+            //Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
+            //this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void MbresAgéEntre35Et50AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.SplitContainer1.Panel2.Controls.Clear();
+            //Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
+            //this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void Entre6Et12AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport6a12ans A = new Etat_Rapport6a12ans();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void Entre12Et18AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport12a18ans A = new Etat_Rapport12a18ans();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void Entre18Et24AnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void HommesToolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            //this.SplitContainer1.Panel2.Controls.Clear();
+            //Etat_Rapport A = new Etat_Rapport18et24ans();
+            //this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void L1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L1 A = new Etat_Rapport_L1();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void HommesToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L1_Hommes A = new Etat_Rapport_L1_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemmesToolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L1_Femmes A = new Etat_Rapport_L1_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void L2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L2 A = new Etat_Rapport_L2();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void HommesToolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L2_Hommes A = new Etat_Rapport_L2_Hommes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void FemmesToolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_L2_Femmes A = new Etat_Rapport_L2_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
     }
     
 }
