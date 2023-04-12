@@ -324,9 +324,9 @@ namespace rootsandshoots
 
         private void A25AnsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //this.SplitContainer1.Panel2.Controls.Clear();
-            //Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
-            //this.SplitContainer1.Panel2.Controls.Add(A);
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_MbreJeunes A = new Etat_Rapport_MbreJeunes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
         }
 
         private void MbresAgéEntre18Et35AnsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -338,9 +338,9 @@ namespace rootsandshoots
 
         private void MbresAgéEntre35Et50AnsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //this.SplitContainer1.Panel2.Controls.Clear();
-            //Etat_Rapport18et24ans A = new Etat_Rapport18et24ans();
-            //this.SplitContainer1.Panel2.Controls.Add(A);
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_Rapport_MbreVieux A = new Etat_Rapport_MbreVieux();
+            this.SplitContainer1.Panel2.Controls.Add(A);
         }
 
         private void Entre6Et12AnsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -410,6 +410,55 @@ namespace rootsandshoots
         {
             this.SplitContainer1.Panel2.Controls.Clear();
             Etat_Rapport_L2_Femmes A = new Etat_Rapport_L2_Femmes();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void ErToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_1er A = new Etat_RapportClass_1er();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_2em A = new Etat_RapportClass_2em();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem13_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_3e A = new Etat_RapportClass_3e();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_4e A = new Etat_RapportClass_4e();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem15_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_5e A = new Etat_RapportClass_5e();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void EToolStripMenuItem16_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass_6e A = new Etat_RapportClass_6e();
+            this.SplitContainer1.Panel2.Controls.Add(A);
+        }
+
+        private void ECOToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.SplitContainer1.Panel2.Controls.Clear();
+            Etat_RapportClass8eou2emCO A = new Etat_RapportClass8eou2emCO();
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
     }

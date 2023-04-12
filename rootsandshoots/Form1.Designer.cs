@@ -671,6 +671,7 @@
             this.ECOToolStripMenuItem2.Name = "ECOToolStripMenuItem2";
             this.ECOToolStripMenuItem2.Size = new System.Drawing.Size(223, 24);
             this.ECOToolStripMenuItem2.Text = "2e CO";
+            this.ECOToolStripMenuItem2.Click += new System.EventHandler(this.ECOToolStripMenuItem2_Click);
             // 
             // ErCOToolStripMenuItem2
             // 
@@ -708,36 +709,42 @@
             this.ErToolStripMenuItem4.Name = "ErToolStripMenuItem4";
             this.ErToolStripMenuItem4.Size = new System.Drawing.Size(223, 24);
             this.ErToolStripMenuItem4.Text = "1er";
+            this.ErToolStripMenuItem4.Click += new System.EventHandler(this.ErToolStripMenuItem4_Click);
             // 
             // EToolStripMenuItem12
             // 
             this.EToolStripMenuItem12.Name = "EToolStripMenuItem12";
             this.EToolStripMenuItem12.Size = new System.Drawing.Size(223, 24);
             this.EToolStripMenuItem12.Text = "2e";
+            this.EToolStripMenuItem12.Click += new System.EventHandler(this.EToolStripMenuItem12_Click);
             // 
             // EToolStripMenuItem13
             // 
             this.EToolStripMenuItem13.Name = "EToolStripMenuItem13";
             this.EToolStripMenuItem13.Size = new System.Drawing.Size(223, 24);
             this.EToolStripMenuItem13.Text = "3e";
+            this.EToolStripMenuItem13.Click += new System.EventHandler(this.EToolStripMenuItem13_Click);
             // 
             // EToolStripMenuItem14
             // 
             this.EToolStripMenuItem14.Name = "EToolStripMenuItem14";
             this.EToolStripMenuItem14.Size = new System.Drawing.Size(223, 24);
             this.EToolStripMenuItem14.Text = "4e";
+            this.EToolStripMenuItem14.Click += new System.EventHandler(this.EToolStripMenuItem14_Click);
             // 
             // EToolStripMenuItem15
             // 
             this.EToolStripMenuItem15.Name = "EToolStripMenuItem15";
             this.EToolStripMenuItem15.Size = new System.Drawing.Size(223, 24);
             this.EToolStripMenuItem15.Text = "5e";
+            this.EToolStripMenuItem15.Click += new System.EventHandler(this.EToolStripMenuItem15_Click);
             // 
             // EToolStripMenuItem16
             // 
             this.EToolStripMenuItem16.Name = "EToolStripMenuItem16";
             this.EToolStripMenuItem16.Size = new System.Drawing.Size(223, 24);
             this.EToolStripMenuItem16.Text = "6e";
+            this.EToolStripMenuItem16.Click += new System.EventHandler(this.EToolStripMenuItem16_Click);
             // 
             // EToolStripMenuItem8
             // 
@@ -1145,7 +1152,7 @@
             // 
             this.A25AnsToolStripMenuItem.Name = "A25AnsToolStripMenuItem";
             this.A25AnsToolStripMenuItem.Size = new System.Drawing.Size(379, 24);
-            this.A25AnsToolStripMenuItem.Text = "Moins de 25 ans";
+            this.A25AnsToolStripMenuItem.Text = "Moins de 30 ans";
             this.A25AnsToolStripMenuItem.Click += new System.EventHandler(this.A25AnsToolStripMenuItem_Click);
             // 
             // RapportSelonAgeToolStripMenuItem
