@@ -65,6 +65,24 @@
     <Compile Include="Affiliation.cs" />
     <Compile Include="Club.cs" />
     <Compile Include="Donnees.cs" />
+    <Compile Include="EtatFemmesnonAffilier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EtatFemmesnonAffilier.Designer.cs">
+      <DependentUpon>EtatFemmesnonAffilier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtatHommesNonAffil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EtatHommesNonAffil.Designer.cs">
+      <DependentUpon>EtatHommesNonAffil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtatRapClubParTerritoire.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EtatRapClubParTerritoire.Designer.cs">
+      <DependentUpon>EtatRapClubParTerritoire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Etat_Class3emP_Femmes.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -310,6 +328,12 @@
     </Compile>
     <Compile Include="Etat_RapportClass_6e_Hommes.Designer.cs">
       <DependentUpon>Etat_RapportClass_6e_Hommes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etat_RapportMoins25.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Etat_RapportMoins25.Designer.cs">
+      <DependentUpon>Etat_RapportMoins25.cs</DependentUpon>
     </Compile>
     <Compile Include="Etat_Rapport_Elementaire_Primaire.cs">
       <SubType>UserControl</SubType>
@@ -648,6 +672,15 @@
     <Compile Include="Province.cs" />
     <Compile Include="Territoire.cs" />
     <Compile Include="Ville.cs" />
+    <EmbeddedResource Include="EtatFemmesnonAffilier.resx">
+      <DependentUpon>EtatFemmesnonAffilier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtatHommesNonAffil.resx">
+      <DependentUpon>EtatHommesNonAffil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtatRapClubParTerritoire.resx">
+      <DependentUpon>EtatRapClubParTerritoire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Etat_Class3emP_Femmes.resx">
       <DependentUpon>Etat_Class3emP_Femmes.cs</DependentUpon>
     </EmbeddedResource>
@@ -770,6 +803,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_RapportClass_6e_Hommes.resx">
       <DependentUpon>Etat_RapportClass_6e_Hommes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etat_RapportMoins25.resx">
+      <DependentUpon>Etat_RapportMoins25.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etat_Rapport_Elementaire_Primaire.resx">
       <DependentUpon>Etat_Rapport_Elementaire_Primaire.cs</DependentUpon>
