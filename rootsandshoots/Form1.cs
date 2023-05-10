@@ -42,7 +42,7 @@ namespace rootsandshoots
         private void Btn_Membre_Click(object sender, EventArgs e)
         {
             this.SplitContainer1.Panel2.Controls.Clear();
-            FormMembre A = new FormMembre();
+            FormMembre A = new FormMembre(); 
             this.SplitContainer1.Panel2.Controls.Add(A);
         }
 
